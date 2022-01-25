@@ -1,1 +1,3 @@
 
+url - full link -example - https://github.com/vaishnaviteegala/computer-basics/edit/main/25-01-2022running-notes.txt
+domain name - github.com
