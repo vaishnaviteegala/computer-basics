@@ -1,0 +1,41 @@
+// datatypes in javascript: number, string, boolean, object, function
+
+
+const z = "hello world";  // z is of type string
+
+
+const typeOf = function() {
+  
+}
+
+
+// typeof is a inbuilt function
+// console.log is a inbuild function
+// here in above example i have created a function typeOf.
+// so here typeOf is a user defined function
+
+console.log(typeOf(z))
+
+const v = false; // v is of type boolean
+
+const x = {
+  abc: "def"
+}; // x is a json object
+
+// console.log(x)
+
+// const y = 21; // it's a normal number
+
+// console.log(y)
+
+// 1. we learnt x is a json object
+// 2. when we try to use a variable without defining it, it will throw error
+
+
+/*
+important topics in any programming language:
+1. datatypes
+2. conditional statements
+3. arrays
+4. functions
+*/
