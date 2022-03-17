@@ -10,7 +10,7 @@ const typeOf = function() {
 
 
 // typeof is a inbuilt function
-// console.log is a inbuild function
+// console.log is a inbuilt function
 // here in above example i have created a function typeOf.
 // so here typeOf is a user defined function
 
