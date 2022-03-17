@@ -1,0 +1,42 @@
+// todays topics
+// 1. datatypes, 2.json objects 3. for loop
+
+/*
+Datatypes: string, number, boolean, arrays, objects
+1. string:
+var x = 'hello' // string declaration
+let x = 'hello'
+const x = 'hello'
+
+
+
+there is a small difference between var and let
+when used const and declared a variable, then you cannot change its value
+*/
+
+datatype tutorial link: https://youtu.be/nCwQY8inRvU
+
+ x = 'hello'
+console.log(x)
+
+// string declaration
+when there is a statement starting with var or let or const and followed by a word, then it is called a declaration
+
+// for example: var aditya = 'man' // this is a declaration
+
+// declaration vs defination
+// var aditya; // this is just a declaration
+// aditya = 'man' // this is just a defination and tells the value of aditya i.e value of aditya is 'man'
+
+// var aditya = 'man' // this is declaring that aditya is a valid entity and his value is defined as a 'man'
+
+var
+Declares a variable, optionally initializing it to a value.
+
+let
+Declares a block scope local variable, optionally initializing it to a value.
+
+const
+Declares a read-only named constant.
+
+
