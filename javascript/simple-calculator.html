@@ -1,0 +1,29 @@
+
+<style>
+	input, button {
+		border: 1px solid black;
+	}
+</style>
+
+
+<br>
+<input id='inputValues' >
+
+<button onclick="calculate()" >click me</button>
+
+<br>
+<br>
+
+<div id='result'>
+
+</div>
+
+
+<script>
+
+	function calculate () {
+		const values = document.getElementById('inputValues').value
+		document.getElementById('result').innerHTML = eval(values)
+	}
+
+</script>
