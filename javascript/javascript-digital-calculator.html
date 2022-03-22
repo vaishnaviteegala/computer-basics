@@ -1,0 +1,59 @@
+<style>
+  input,
+  button {
+    border: 1px solid black;
+  }
+  #input {
+    width: 100px;
+    height: 20px;
+    border: 1px solid black;
+  }
+</style>
+
+<br />
+<div id="input"></div>
+
+<button onclick="append(1)">1</button>
+<button onclick="append(2)">2</button>
+<button onclick="append(3)">3</button>
+<button onclick="append('+')">+</button>
+<br />
+
+<button onclick="append(4)">4</button>
+<button onclick="append(5)">5</button>
+<button onclick="append(6)">6</button>
+<button onclick="append('*')">*</button>
+
+<br />
+
+<button onclick="append(7)">7</button>
+<button onclick="append(8)">8</button>
+<button onclick="append(9)">9</button>
+<button onclick="append('/')">/</button>
+<br />
+
+<button onclick="append(0)">0</button>
+<button onclick="append('%')">%</button>
+<button onclick="calculate()">=</button>
+<button onclick="removeOutput()">c</button>
+<br />
+
+<script>
+  let output = '';
+
+  function append(val) {
+    output = output + val;
+    document.getElementById('input').innerHTML = output;
+  }
+
+  function calculate() {
+		output = eval(output)
+    document.getElementById('input').innerHTML =  output;
+  }
+
+  function removeOutput() {
+    console.log('clled');
+    output = '';
+    document.getElementById('input').innerHTML = output;
+  }
+</script>
