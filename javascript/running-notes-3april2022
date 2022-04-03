@@ -37,3 +37,51 @@ function raghu(a,b) {
 
 }
 raghu()
+
+let j=0
+//console.log(j)
+j++
+//console.log(j)
+j++
+//console.log(j)
+j--
+//console.log(j)
+
+
+let somearr = [ 'naresh', 'suresh', 'rock', 'suresh', 'aditya' ]
+// for loop
+// initial value declaration; condition; increment/re assignment
+for(let i=0; i<5; i++){
+  console.log(i)
+  //console.log(somearr[0])
+}
+console.log('loop completed')
+
+
+for(let i=0; i<5; i++){
+  //console.log(i)
+ // console.log(somearr[i])
+}
+
+for(let i=0; i<5; i++){
+  //console.log(i)
+  if(i != 2){
+      console.log(somearr[i])
+  }
+}
+
+
+for(let i=0; i<=4; i++){
+  //console.log(i)
+  if(i != 2){
+      console.log(somearr[i])
+  }
+}
+
+// to know array length
+const k = somearr.length
+console.log(k)
+for(let i=0; i<somearr.length; i++){
+  //console.log(i)
+  console.log(somearr[i])
+}
